@@ -60,11 +60,11 @@ class Sprite {
         }
 
         if(this.position.x >= canvas.width) {
-            this.position.x -= canvas.width;
+            this.position.x = canvas.width;
         }
 
         if(this.position.x <= 0) {
-            this.position.x += canvas.width;
+            this.position.x = 0;
         }
     }
 
@@ -161,7 +161,6 @@ function determineWinner({player, enemy}) {
 let timer = 50;
 function refreshTimer(timeOutPeriod) {
     setTimeout("location.reload(true);", timeOutPeriod);
-
 }
 
 function decreaseTimer() {
