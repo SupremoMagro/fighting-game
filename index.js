@@ -60,11 +60,11 @@ class Sprite {
         }
 
         if(this.position.x >= canvas.width) {
-            this.position.x = canvas.width;
+            this.position.x -= canvas.width;
         }
 
         if(this.position.x <= 0) {
-            this.position.x = 0;
+            this.position.x += canvas.width;
         }
     }
 
