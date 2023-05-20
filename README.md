@@ -6,6 +6,7 @@ Rules: Defeat your opponent by using basic attacks, the green square is the rang
 <br>
 Controls:
 <br>
+<br>
 Player 1:
 <br> a - move to the left
 <br> d - move to the right
