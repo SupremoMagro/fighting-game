@@ -1,5 +1,5 @@
 # fighting-game
-Rules: Defeat your opponent by using basic attacks, the green square is the range of your attacks
+Rules: Defeat your opponent by using basic attacks, the green square is the range of your attacks.
 <br> The first player to deplete the health bar loses and the winner appears on the screen.
 <br> The page is refreshed and the game restarts.
 <br>
